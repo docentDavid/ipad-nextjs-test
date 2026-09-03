@@ -2,6 +2,10 @@
 
 Een compacte testproject voor het verkennen van een VS Code desktop-omgeving en de basisworkflow voor lokale ontwikkeling in een repository.
 
+## Live view
+
+[Vercel Hosting][https://ipad-nextjs-test.vercel.app/]
+
 ## Overzicht
 
 Dit project dient als een eenvoudige start voor experimenten met:
