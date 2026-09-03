@@ -1,21 +1,23 @@
 import type { Metadata } from "next";
-import "\./globals\.css";
-export const metadata: Metadata = \{
-  title: \{
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: {
     default: "ACME — Slimme oplossingen",
-    template: "%s \| ACME",
-  \},
+    template: "%s | ACME",
+  },
   description:
-    "ACME levert heldere, betrouwbare oplossingen voor moderne teams\.",
-\};
-export default function RootLayout&#40;\{
+    "ACME levert heldere, betrouwbare oplossingen voor moderne teams.",
+};
+
+export default function RootLayout({
   children,
-\}: Readonly<\{
-  children: React\.ReactNode;
-\}\>&#41; \{
-  return &#40;
-    <html lang="nl"\>
-      <body\>\{children\}</body\>
-    </html\>
-  &#41;;
-\}
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="nl">
+      <body>{children}</body>
+    </html>
+  );
+}
