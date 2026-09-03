@@ -461,7 +461,7 @@ export default function HomePage() {
 - Een componentnaam begint met een hoofdletter.
 - JSX-expressies staan tussen accolades: `{benefit.title}`.
 - `.map()` zet gegevens om in componenten.
-- Ieder element in een lijst krijgt een stabiele `key`.
+- Ieder element in een lijst krijgt een unieke `key`.
 - Een fragment is hier niet nodig, omdat `<main>` het enige root-element is.
 
 ## 11. Een productkaart als component maken
