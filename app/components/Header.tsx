@@ -4,6 +4,7 @@ const navigation = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Producten" },
   { href: "/contact", label: "Contact" },
+  { href: "/contact", label: "Contact" },{ href: "/contact", label: "Contact" },
 ];
 
 export default function Header() {
